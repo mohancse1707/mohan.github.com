@@ -275,7 +275,7 @@ If you dont have GIT in your system then download the source using the following
 
 Home Page:
 
-![spring-boot-angular](/images/blog/spring/home-page.jpg)
+![spring-boot-angular](/images/blog/spring/mk-springboot-angular/home-page.jpg)
 
 Login:
 
