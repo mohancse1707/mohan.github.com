@@ -250,7 +250,7 @@ However, the good idea to change the default value, to make sure that no informa
 
 ## Prjects Structure
 
-![spring-boot-angular](/images/blog/spring/mk-springboot-angular/spring-boot-angular.jpg)
+![spring-boot-angular](/images/blog/spring/mk-springboot-angular/spring-boot-angular.JPG)
 
 ## Download
 
@@ -275,19 +275,19 @@ If you dont have GIT in your system then download the source using the following
 
 Home Page:
 
-![spring-boot-angular](/images/blog/spring/mk-springboot-angular/home-page.jpg)
+![spring-boot-angular](/images/blog/spring/home-page.jpg)
 
 Login:
 
-![spring-boot-angular](/images/blog/spring/mk-springboot-angular/login-popup.jpg)
+![spring-boot-angular](/images/blog/spring/mk-springboot-angular/login-popup.JPG)
 
 After Login:
 
-![spring-boot-angular](/images/blog/spring/mk-springboot-angular/login-after.jpg)
+![spring-boot-angular](/images/blog/spring/mk-springboot-angular/login-after.JPG)
 
 Logout:
 
-![spring-boot-angular](/images/blog/spring/mk-springboot-angular/logout-popup.jpg)
+![spring-boot-angular](/images/blog/spring/mk-springboot-angular/logout-popup.JPG)
 
 
 [UsernamePasswordAuthenticationFilter]: http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.html
