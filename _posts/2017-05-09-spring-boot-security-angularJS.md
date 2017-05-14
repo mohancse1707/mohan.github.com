@@ -3,6 +3,10 @@ layout: post
 title:  "Spring-Boot Application + AngularJS + Spring Security - XML Config..,"
 date: 2017-05-09 00:00:00 Z
 keywords: Spring, springboot, spring-boot, Security, spring security, angularjs, angular1, Java, login popup
+output: 
+  html_document:
+     css: assets/font-awesome/css/font-awesome.css
+     self_contained: no
 ---
 
 
@@ -260,7 +264,10 @@ You can download this application using git clone as shown in below
     https://github.com/mohancse1707/mk-springboot-angular.git
 ```
 
-If you dont have GIT in your system then download the source using the following links and extract it.   [Zip File][Zip File]
+If you dont have GIT in your system then download the source using the below links and extract it.   
+
+
+<i class="fa fa-download" aria-hidden="true"> [Download][Download]</i>  
 
 ## Build and Deploy Steps
 
@@ -294,4 +301,4 @@ Logout:
 
 [click here]: http://stackoverflow.com/questions/21023763/what-is-the-difference-between-angular-route-and-angular-ui-router
 
-[Zip File]: https://github.com/mohancse1707/mk-springboot-angular/zipball/master
+[Download]: https://github.com/mohancse1707/mk-springboot-angular/zipball/master

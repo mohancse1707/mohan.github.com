@@ -1,6 +1,6 @@
 # Site settings
 title: Mohan
-url: "http://localhost:3000"
+url: http://mohankumarrathinam.com
 baseurl: ""
 # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
