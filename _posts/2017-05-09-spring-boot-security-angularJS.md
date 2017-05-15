@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Spring-Boot Application + AngularJS + Spring Security - XML Config..,"
+title:  "SpringBoot sample application using AngularJS and Spring Security - XML Config"
 date: 2017-05-09 00:00:00 Z
-keywords: Spring, springboot, spring-boot, Security, spring security, angularjs, angular1, Java, login popup
+keywords: Java, SpringBoot, Spring, Spring Security, AngularJS 
 output: 
   html_document:
      css: assets/font-awesome/css/font-awesome.css
@@ -282,7 +282,7 @@ If you dont have GIT in your system then download the source using the below lin
 
 Home Page:
 
-![spring-boot-angular](/images/blog/spring/mk-springboot-angular/home-page.jpg)
+![spring-boot-angular](/images/blog/spring/mk-springboot-angular/home-page.JPG)
 
 Login:
 
