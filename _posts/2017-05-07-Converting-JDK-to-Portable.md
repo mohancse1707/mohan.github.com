@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Converting JDK to Portable - Unpacking"
+title: Converting JDK to Portable - Unpacking
 date: 2017-05-07 00:00:00 Z
-categories: jekyll update
 keywords: JDK unpacking, JDK8 unpacking, jdk8 portable, jdk portable
+tagline: Converting JDK to Portable - Unpacking
 ---
 
 ## Converting JDK Portable

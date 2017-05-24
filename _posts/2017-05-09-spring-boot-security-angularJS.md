@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "SpringBoot sample application using AngularJS and Spring Security - XML Config"
+title: SpringBoot sample application using AngularJS and Spring Security - XML Config
 date: 2017-05-09 00:00:00 Z
-keywords: Java, SpringBoot, Spring, Spring Security, AngularJS 
+keywords: Java, SpringBoot, Spring, Spring Security, AngularJS
+tagline: SpringBoot sample application using AngularJS and Spring Security - XML Config
 output: 
   html_document:
      css: assets/font-awesome/css/font-awesome.css

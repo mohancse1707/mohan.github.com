@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post" itemscope itemtype="http://schema.org/TechArticle" >
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+   <div itemprop="author" itemscope itemtype="http://schema.org/Person" style="display:none"><ba itemprop="name">{{ site.author}}</ba></div>
+    <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+    <p class="post-meta">{% if page.tagline %}<span itemprop="headline">{{page.tagline}}</span>{% endif %}</p>
+    <p class="post-meta" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
-  <article class="post-content">
+  <article class="post-content" itemprop="articleBody">
     {{ content }}
   </article>
   
