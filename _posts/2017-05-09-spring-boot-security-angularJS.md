@@ -26,7 +26,7 @@ Technologies Used are:
 
 ## AngularJS
 
-I have choosen AngularJS for front end and Spring REST API for back-end, this the most prefered way to communicate with server from AngularJS. 
+I have chosen AngularJS for front end and Spring REST API for back-end, this the most prefered way to communicate with server from AngularJS. 
 
 AngularJS integrated with HTML5 on front end, communicating asynchronously with server i am using angular $http.
 
@@ -168,7 +168,7 @@ After generating the maven project, I have listed in below the required maven de
 ```
 ## Spring Security Configuration
 
-Create a spring security xml with inmemory user authentication as shown in below.
+Create a spring security XML with in-memory user authentication as shown in below.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -206,7 +206,7 @@ Create a spring security xml with inmemory user authentication as shown in below
 </beans:beans>
 ```
 
-If you look out the abovel XML, the intercept-url pattern '/' view can be accessed all (permitAll) and the other pattern is secured with Role of ADMIN. 
+If you look out the above XML, the intercept-url pattern '/' view can be accessed all (permitAll) and the other pattern is secured with Role of ADMIN. 
 
 If you want to hide the fact that you are using Spring Security, you should override the login-processing-url to something like "/app/authentication", as well as the username and password form parameters. This help hide the framework that you are using to secure your site.
 
@@ -229,7 +229,7 @@ Failed Authentication should return 401 instead of 302
 Similarly we configured the authentication failure handler – the same way we did with the success handler.
 
 
-A quick note, the Spring Security 4 config has changed the old defaults for XML configuration to be the same as Java defaults.
+A quick note, the Spring Security 4 configuration has changed the old defaults for XML configuration to be the same as Java defaults.
 
 Old XML Configuration defaults – before Spring Security 4:
 
@@ -245,21 +245,21 @@ Current XML Configuration defaults:
 
 ## Logout
 
-A simple way to add logout configuration for spring logout functionality is defining `<logout />`. This element is enables default logout functionalities of Spring Security, The followoing URL /logout is used by default for logging out which is to be /j_spring_security_logout before Spring Security 4. 
+A simple way to add logout configuration for spring logout functionality is defining `<logout />`. This element is enables default logout functionalities of Spring Security, The following URL /logout is used by default for logging out which is to be /j_spring_security_logout before Spring Security 4. 
 
-The good approach is to redirect to login/home page when configuring the logout functionality. Spring by default redirect to the root page ('/') but this can be configurable in the namespace.
+The good approach is to redirect to login/home page when configuring the logout functionality. Spring by default redirect to the root page ('/') but this can be configurable in the name space.
 
 `<logout logout-success-url="/home.html" />`
 
 However, the good idea to change the default value, to make sure that no information is published about what kind of framework has been used. 
 
-## Prjects Structure
+## Project Structure
 
 ![spring-boot-angular](/images/blog/spring/mk-springboot-angular/spring-boot-angular.JPG)
 
 ## Download
 
-You can download this application using git clone as shown in below
+Using git you can clone the application with below git URL.
 
 ```git
     https://github.com/mohancse1707/mk-springboot-angular.git
@@ -274,7 +274,7 @@ If you dont have GIT in your system then download the source using the below lin
 
 1. You should be installed NodeJs and then install bower component globally using this  cmd> `npm install bower -g`in your system because I have used bower for angular libraries.
 1. Clone or Download then extract the source code.
-2. Open the terminal and navigate to the souce location (ex: D:\workspace\mk-springboot-angular)
+2. Open the terminal and navigate to the source location (ex: D:\workspace\mk-springboot-angular)
 4. Install bower using this cmd> `bower install`
 5. Start the server using spring boot cmd> `mvn spring-boot:run`  
 6. Check the app in this URL `http://localhost:8008/`
