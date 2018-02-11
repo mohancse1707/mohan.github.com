@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Profile
 permalink: /about/profile
 public: true
 ---
@@ -33,7 +33,7 @@ Overall 8.2 years of experience in developing web and enterprise applications us
 #### **Technical Expertise:**
 
 |                       |                           |
-| -------------         |:-------------            |
+| -------------         |:-------------             |
 | Operating System      | Windows, Linux            |
 | Programming Language  | Java                      |
 | Java Technologies     | Java EE                   |
