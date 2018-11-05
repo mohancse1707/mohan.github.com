@@ -1,10 +1,4 @@
----
-layout: post
-title: Converting JDK to Portable - Unpacking
-date: 2017-05-07 00:00:00 Z
-keywords: JDK unpacking, JDK8 unpacking, jdk8 portable, jdk portable
-tagline: Converting JDK to Portable - Unpacking
----
+
 
 ## Converting JDK Portable
 

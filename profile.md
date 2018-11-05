@@ -7,7 +7,7 @@ public: true
 
 
 ## Mohankumar Rathinam
-Overall 8.2 years of experience in developing web and enterprise applications using Java / J2EE technologies.
+Overall 8 plus years of experience in developing web and enterprise applications using Java / J2EE technologies.
 
 #### **Professional Summary:**
 
@@ -37,17 +37,17 @@ Overall 8.2 years of experience in developing web and enterprise applications us
 | Operating System      | Windows, Linux            |
 | Programming Language  | Java                      |
 | Java Technologies     | Java EE                   |
-| Application Framework | Spring, Spring-boot, EGSpring, JSF, Rich faces, Seam.                   |
+| Application Framework | Spring, Spring-boot, JSF, Rich Faces.                   |
 | ORM                   | JPA, Hibernate.           |
-| Web Technologies      | HTML5, CSS, Bootstrap, SASS, jQuery, JavaScript.                   |
-| Web Framework         | NodeJS, NPM, Bower, Grunt, AngularJS                   |
+| Web Technologies      | HTML5, CSS, Bootstrap, TypeScript.                   |
+| Web Framework         | NodeJS, NPM, Bower, Grunt, Angular                   |
 | Development & Build Tools    | Java EE                   |
-| zJava Technologies    | Intellij, Eclipse, Jasper Soft Studio, Maven, Gradle.                   |
+| zJava Technologies    | Intellij, Eclipse, Jasper Soft Studio, Maven.                   |
 | SCM                   | SVN, Git                  |
 | Git Services          | BitBucket, GitHub, GitLab.|
 | Application CI        | Jenkins, SonarQube.       |
 | Repository Manager    | Archiva, Nexus.           |
-| DBMS                  | Oracle, MySQL, Liquibase. |
+| DBMS                  | Oracle, MySQL. |
 | Web & Application Servers    | JBoss EAP, Spring-Boot, Tomcat.                   |
 | Application Generator    | Yoman generator.                   |
 | Web Services    | Spring REST API, WSDL                   |

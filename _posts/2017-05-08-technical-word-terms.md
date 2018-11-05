@@ -1,9 +1,9 @@
-<!-- ---
+---
 layout: post
-title: Technology terms in details
+title: Technology Terms In Details
 date: 2017-05-08 00:00:00 Z
-keywords: Technology terms in detail
---- -->
+keywords: Technology Terms In Details
+---
 
 Sass: Syntactically Awesome Style Sheets
 
@@ -37,14 +37,5 @@ CDI : Contexts and Dependency
 Injection for Java (CDI)
 
 IIFE: Immediately Invoked function expression (IIFE)
-
-
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-7967171660300370",
-    enable_page_level_ads: true
-  });
-</script>
 
 

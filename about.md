@@ -10,7 +10,7 @@ Welcome to my page!
 This blog has been created to share my experiences as real time examples with popular advance technologies.I love to code and thought this blog can help others who are in Java development projects. 
 
 
-I’m originally from the small state of [TamilNadu][TamilNadu] in India, but am currently living in Dubai UAE.
+I’m originally from the state of [TamilNadu][TamilNadu] in India. I am currently living in Dubai UAE.
 
 If you have any questions or just want to give me a shout you can do so via twitter, email. Thanks for visiting my site and I hope you found some cool stuff to use while you were here!
 
