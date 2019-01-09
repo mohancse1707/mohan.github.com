@@ -6,8 +6,6 @@ keywords: JDK unpacking, JDK8 unpacking, jdk8 portable, jdk portable
 tagline: Converting JDK to Portable - Unpacking
 ---
 
-## Converting JDK Portable
-
 This blog is created to show how to convert the JDK exe file into portable package. 
 
 ### JDK8 Portable
