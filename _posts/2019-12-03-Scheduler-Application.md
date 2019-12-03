@@ -54,11 +54,9 @@ In order to check the priority job execution, I have considered frequency as cor
 
 ### Source Code Download
 
-If you have the GIT you can clone the application using below link else use the direct download link. 
+If you have the GIT you can clone the application using below link. 
 
 > git clone https://github.com/mohancse1707/mk-sch-webapp.git
-
-[Direct Download][Direct Download]
 
 ### Quick Deployment Steps
 
