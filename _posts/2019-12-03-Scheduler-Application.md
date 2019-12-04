@@ -68,6 +68,19 @@ After setting Java & Maven in path, execute the below command to start the appli
 
 once started hit this URL: [http://localhost:8080/#/](http://localhost:8080/#/) 
 
+### Sample Screens
+
+Front End Job Configurations
+
+![spring-boot-react](/images/blog/spring/Front-End-Configuration.JPG)
+
+Server log before changing the priority jobs
+
+![spring-boot-react](/images/blog/spring/Server-Log.JPG)
+
+Server log after changing the priority and en queuing jobs
+
+![spring-boot-react](/images/blog/spring/Server-Log-Priority-Update-Enqueing-NewPriority.JPG)
 
 [Direct Download]: https://github.com/mohancse1707/mk-scheduler-webapp/archive/master.zip
 [Maven]:https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.5.4/apache-maven-3.5.4-bin.zip
