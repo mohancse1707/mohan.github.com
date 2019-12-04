@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This document describe how to create, change and cancel job scheduler with UI screens.
+This document describes how to create, change and cancel job scheduler with UI screens using reactJS and spring boot.
 
 ### Technology Stack
 
@@ -28,7 +28,7 @@ Make sure to install below tools and set the path in the system before proceedin
 
 * Java - JDK 1.8
 * Maven Build Tool [Download][Maven]
-* Node [Download][Node]
+* Node [Download][Node] - Optional
 
 ``` maven requires JAVA_HOME variable, kindly follow the path setup given below.```
 
@@ -54,9 +54,11 @@ In order to check the priority job execution, I have considered frequency as cor
 
 ### Source Code Download
 
-If you have the GIT you can clone the application using below link. 
+If you have the GIT you can clone the application using below link else use the direct download link. 
 
-> git clone https://github.com/mohancse1707/mk-sch-webapp.git
+> git clone https://github.com/mohancse1707/mk-scheduler-webapp.git
+
+[Direct Download][Direct Download]
 
 ### Quick Deployment Steps
 
@@ -67,7 +69,7 @@ After setting Java & Maven in path, execute the below command to start the appli
 once started hit this URL: [http://localhost:8080/#/](http://localhost:8080/#/) 
 
 
-[Direct Download]: https://github.com/mohancse1707/mk-sch-webapp.git
+[Direct Download]: https://github.com/mohancse1707/mk-scheduler-webapp/archive/master.zip
 [Maven]:https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.5.4/apache-maven-3.5.4-bin.zip
 [Node]:https://nodejs.org/download/release/v10.15.3/
 
