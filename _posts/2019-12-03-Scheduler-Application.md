@@ -79,6 +79,12 @@ You can see jobs are running at every 30 seconds. And, I tried to schedule JOB2 
 
 ```Recommended options for testing priority job execution - Please choose 1 or 2 or 5 or 10-minute frequency```
 
+### Not completed items from the requirement
+
+* Sorting done only by priority ascending order and not done for enqueuing order due to some grouping issue from H2 DB. 
+
+* get a frequency (default 0 secs, which means scheduler is disabled) - due to some limitations I have chosen corn expression.
+
 ### Source Code Download
 
 If you have the GIT you can clone the application using the below link else use the direct download link.
