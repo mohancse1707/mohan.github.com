@@ -54,26 +54,26 @@ In order to check the priority job execution, I have considered frequency as cor
 
 For Example, I have chosen 30 seconds as a frequency for JOB1
 
-* Let assume JOB1 scheduled at Wed Dec 02 16:55:48 GST 2019 and the following are subsequent execution.
+Let assume JOB1 scheduled at Wed Dec 02 16:55:48 GST 2019 and the following are subsequent execution.
 
-    | Job Name        | JOB1           |
-    |:------------- |:-------------|
-    | Priority      | 1 |
-    | ScheduledFireTime      | Wed Dec 02 16:56:01 GST 2019      |
-    | NextFireTime | Wed Dec 02 16:56:31 GST 2019      |
+| Job Name        | JOB1           |
+|:------------- |:-------------|
+| Priority      | 1 |
+| ScheduledFireTime      | Wed Dec 02 16:56:01 GST 2019      |
+| NextFireTime | Wed Dec 02 16:56:31 GST 2019      |
 
 
-    | Job Name        | JOB1           |
-    |:------------- |:-------------|
-    | Priority      | 1 |
-    | ScheduledFireTime      | Wed Dec 02 16:56:31 GST 2019      |
-    | NextFireTime | Wed Dec 02 16:57:01 GST 2019      |
+| Job Name        | JOB1           |
+|:------------- |:-------------|
+| Priority      | 1 |
+| ScheduledFireTime      | Wed Dec 02 16:56:31 GST 2019      |
+| NextFireTime | Wed Dec 02 16:57:01 GST 2019      |
 
-    | Job Name        | JOB1           |
-    |:------------- |:-------------|
-    | Priority      | 1 |
-    | ScheduledFireTime      | Wed Dec 02 16:57:01 GST 2019      |
-    | NextFireTime | Wed Dec 02 16:57:31 GST 2019      |
+| Job Name        | JOB1           |
+|:------------- |:-------------|
+| Priority      | 1 |
+| ScheduledFireTime      | Wed Dec 02 16:57:01 GST 2019      |
+| NextFireTime | Wed Dec 02 16:57:31 GST 2019      |
 
 You can see jobs are running at every 30 seconds. And, I tried to schedule JOB2 with the highest priority with same 30 seconds frequency but I can't schedule due to the second's difference.
 
