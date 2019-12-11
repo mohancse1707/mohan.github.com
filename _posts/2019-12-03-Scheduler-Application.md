@@ -24,7 +24,7 @@ The technologies used in this application are given below.
     
 ### Prerequisite
 
-Make sure to install below tools and set the path in the system before proceeding to quick deployments.
+Make sure to install the below tools and set the path in the system before proceeding to quick deployments.
 
 * Java - JDK 1.8
 * Maven Build Tool [Download][Maven]
@@ -50,11 +50,38 @@ Make sure to install below tools and set the path in the system before proceedin
 
 ### Limitations 
 
-In order to check the priority job execution, I have considered frequency as corn expression (String) because I have tried considering frequency as seconds (number) but there is a difference in seconds / milliseconds while trying to create same Job frequency twice.  
+In order to check the priority job execution, I have considered frequency as corn expression (String) because I have tried considering frequency as seconds (number) but there is a difference in seconds/milliseconds while trying to create the same Job frequency twice.
+
+For Example, I have chosen 30 seconds as a frequency for JOB1
+
+* Let assume JOB1 scheduled at Wed Dec 02 16:55:48 GST 2019 and the following are subsequent execution.
+
+    | Job Name        | JOB1           |
+    |:------------- |:-------------|
+    | Priority      | 1 |
+    | ScheduledFireTime      | Wed Dec 02 16:56:01 GST 2019      |
+    | NextFireTime | Wed Dec 02 16:56:31 GST 2019      |
+
+
+    | Job Name        | JOB1           |
+    |:------------- |:-------------|
+    | Priority      | 1 |
+    | ScheduledFireTime      | Wed Dec 02 16:56:31 GST 2019      |
+    | NextFireTime | Wed Dec 02 16:57:01 GST 2019      |
+
+    | Job Name        | JOB1           |
+    |:------------- |:-------------|
+    | Priority      | 1 |
+    | ScheduledFireTime      | Wed Dec 02 16:57:01 GST 2019      |
+    | NextFireTime | Wed Dec 02 16:57:31 GST 2019      |
+
+You can see jobs are running at every 30 seconds. And, I tried to schedule JOB2 with the highest priority with same 30 seconds frequency but I can't schedule due to the second's difference.
+
+```Recommended for testing priority job execution - Please choose 1 or 2 or 5 or 10-minute frequency```
 
 ### Source Code Download
 
-If you have the GIT you can clone the application using below link else use the direct download link. 
+If you have the GIT you can clone the application using the below link else use the direct download link.
 
 > git clone https://github.com/mohancse1707/mk-scheduler-webapp.git
 
@@ -62,7 +89,7 @@ If you have the GIT you can clone the application using below link else use the 
 
 ### Quick Deployment Steps
 
-After setting Java & Maven in path, execute the below command to start the application.
+After setting Java & Maven in the path, execute the below command to start the application.
 
 > mvn spring-boot:run
 
