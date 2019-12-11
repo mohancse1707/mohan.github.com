@@ -28,7 +28,7 @@ Make sure to install the below tools and set the path in the system before proce
 
 * Java - JDK 1.8
 * Maven Build Tool [Download][Maven]
-* Node [Download][Node] - Optional
+* Node [Download][Node] - Required for development
 
 ``` maven requires JAVA_HOME variable, kindly follow the path setup given below.```
 
@@ -77,7 +77,7 @@ For Example, I have chosen 30 seconds as a frequency for JOB1
 
 You can see jobs are running at every 30 seconds. And, I tried to schedule JOB2 with the highest priority with same 30 seconds frequency but I can't schedule due to the second's difference.
 
-```Recommended for testing priority job execution - Please choose 1 or 2 or 5 or 10-minute frequency```
+```Recommended options for testing priority job execution - Please choose 1 or 2 or 5 or 10-minute frequency```
 
 ### Source Code Download
 
@@ -94,6 +94,14 @@ After setting Java & Maven in the path, execute the below command to start the a
 > mvn spring-boot:run
 
 once started hit this URL: [http://localhost:8080/#/](http://localhost:8080/#/) 
+
+### For Development & Contributions
+
+Option two-terminal or command-line shell then navigate to application path and execute the below script. 
+
+> Terminal#1: <mk-scheduler-webapp> mvn spring-boot:run
+
+> Terminal#2: <mk-scheduler-webapp> npm install && npm run start
 
 ### Sample Screens
 
