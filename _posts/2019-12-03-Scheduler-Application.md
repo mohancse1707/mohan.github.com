@@ -111,10 +111,6 @@ Option two-terminal or command-line shell then navigate to application path and 
 
 ### Sample Screens
 
-Front End Job Configurations
-
-![spring-boot-react](/images/blog/spring/Front-End-Configuration.JPG)
-
 Server log before changing the priority jobs
 
 ![spring-boot-react](/images/blog/spring/Server-Log.JPG)
