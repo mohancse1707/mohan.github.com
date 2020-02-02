@@ -97,11 +97,9 @@ If you have the GIT you can clone the application using the below link else use 
 
 After setting Java & Maven in the path, execute the below command to start the application.
 
-> Terminal#1: <mk-scheduler-webapp> mvn spring-boot:run
+> mvn spring-boot:run
 
-> Terminal#2: <mk-scheduler-webapp> npm install && npm run start
-
-once started hit this URL: [http://localhost:8080/#/](http://localhost:8080/#/) 
+once started hit this URL: [http://localhost:8080/scheduler/#/](http://localhost:8080/scheduler/#/) 
 
 ### For Development & Contributions
 
