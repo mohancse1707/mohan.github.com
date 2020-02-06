@@ -103,7 +103,7 @@ once started hit this URL: [http://localhost:8080/scheduler/#/](http://localhost
 
 ### For Development & Contributions
 
-Option two-terminal or command-line shell then navigate to application path and execute the below script. 
+Open two-terminal or command-line shell then navigate to application path and execute the below script. 
 
 > Terminal#1: <mk-scheduler-webapp> mvn spring-boot:run
 
