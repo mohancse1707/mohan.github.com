@@ -7,26 +7,27 @@ public: true
 
 
 ## Mohankumar Rathinam
-Overall 8 plus years of experience in developing web and enterprise applications using Java / J2EE technologies.
+Overall 9 plus years of experience in developing web and enterprise applications using Java / J2EE technologies.
 
 #### **Professional Summary:**
 
-* Expertise in Java Frameworks like spring, Spring-Boot, EGSpring and seam. 
+* Expertise in Java Frameworks like spring, Spring-Boot. 
+* Design and implementing micro services using spring-boot.
+* Having Good experience in Integrating Swagger API with spring.
+* Experienced in SonarQube, Jenkins CI / CD Server setup and maintenance / support.
+* Experienced in AppDynamics tool used for Performance monitoring, debugging 
+* Implementing Unit testing using JMockit framework. 
+* Proficient in deploying web application using openShift container, JBoss EAP, Spring Boot servers.
 * Strong proficiency with Hibernate, JPA framework.
-* Having Good experience in AngularJS & Angular web framework.
-* Having Good experience in Integrating Swagger API with Spring 
+* Having 3 years of experience in Angular and React web framework.
 * Created Yeoman app generator scaffolding tools from scratch for modern web applications by providing various prototypes. 
-* Strong in spring security – Form Based, Kerberos and OAuth. 
-* Having Good knowledge in SVN and GIT with BitBucket, GitHub, GitLab services.
-* Proficient in SonarQube, Jenkins Server setup and maintenance / support. 
-* Expertise in CI/CD (Devops) supports using Jenkins with pipeline plugins.
-* Knowledge in Archiva and Nexus OSS Repository manager server. 
-* Proficient in deploying web application using JBoss EAP, Spring Boot, Tomcat Servers.
-* Experienced in Oracle, MySQL and Liquibase Database.
-* Skilled in all phases of the software development lifecycle; expert in translating business requirements into technical solutions; and fanatical about quality, usability, security and scalability.
-* Strong experience on AGILE (SCRUM) and Waterfall SDLC.
+* Having Good knowledge in GIT with BitBucket, GitHub services.
+* Experienced in Nexus Repository manager server. 
+* Experienced in Oracle and MySQL Database.
+* Skilled in all phases of the software development lifecycle.
+* Good in data model, architecture design.
+* Created reusable library node module using Angular and ReactJS.
 * Passionate about experiencing new technologies.
-* Presented tech talk on JMockit unit testing. 
 
 #### **Technical Expertise:**
 
@@ -38,9 +39,8 @@ Overall 8 plus years of experience in developing web and enterprise applications
 | Application Framework | Spring, Spring-boot, JSF, Rich Faces.                   |
 | ORM                   | JPA, Hibernate.           |
 | Web Technologies      | HTML5, CSS, Bootstrap, TypeScript.                   |
-| Web Framework         | NodeJS, NPM, Bower, Grunt, Angular                   |
-| Development & Build Tools    | Java EE                   |
-| zJava Technologies    | Intellij, Eclipse, Jasper Soft Studio, Maven.                   |
+| Web Framework         | React JS, NodeJS, Angular, JSF                   |
+| Development & Build Tools    | Intellij, Eclipse, Jasper Soft Studio, Maven                   |
 | SCM                   | SVN, Git                  |
 | Git Services          | BitBucket, GitHub, GitLab.|
 | Application CI        | Jenkins, SonarQube.       |
@@ -50,5 +50,6 @@ Overall 8 plus years of experience in developing web and enterprise applications
 | Application Generator    | Yoman generator.                   |
 | Web Services    | Spring REST API, WSDL                   |
 | Project Flow    | Agile, JIRA                   |
-| Java Packages    | Jasper API, JMockit                   |
+| Java Packages    | Jasper API                   |
 
+* Working as Software engineer in Fly Emirates Group Technology Centre, Dubai UAE.
