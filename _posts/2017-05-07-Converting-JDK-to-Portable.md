@@ -16,40 +16,27 @@ For JDK 8u102 things have changed, this worked for me:
 
 1) Download windows JDK exe
 
-2) Open with 7-Zip
+2) Open with 7-Zip and extract to "jdk-8u261-windows-x64"
 
-3) Dump contents into a directory %JDK-EXE%
-	cmd: cd %JDK-EXE%.rsrc\1033\JAVA_CAB10
-	cmd: extrac32 111
+3) Open Terminal / Command Prompt and Change Directory to "path/to/jdk-8u261-windows-x64/.rsrc\1033\JAVA_CAB10" then excute this command 
 
-4) Now have a tools.zip in directory, open it in 7-Zip
+```Example : C:\jdk-8u261-windows-x64\.rsrc\1033\JAVA_CAB10>extrac32 111```
 
-5) Extract contents into a new directory %JDK-VERSION%
-	cmd: cd %JDK-VERSION%
-	cmd: for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"
+4) Above command generates tools zip folder in the same directory and extract the tools folder using 7-zip
 
-6) src.zip is in a linux download: jdk-VERSION-linux-x64.tar.
+5) Terminal / Command Prompt and Change Directory to "path/to/tools" and execute the following command
 
-7) Put a copy into %JDK-VERSION%
-
-Now you are ready to go. You might want to setup JAVA_HOME and PATH to point to your %JDK-VERSION% dir and its BIN subdir.
+```Example C:\jdk-8u261-windows-x64\.rsrc\1033\JAVA_CAB10>for /r %x in (*.pack) do .\bin\unpack200 -r “%x” “%~dx%~px%~nx.jar”```
 
 
-### JDK7 Portable
+6) Now your JDK portable is ready to use. copy the tools folder into some other directory and name it as jdk-1.8
 
-Follow the below stepts 
+7) set the JDK path as JAVA_HOME in environment variable. 
 
-1) Create destination folder where you can place the jdk (e.g. C:\jdk8)
+```Example : set JAVA_HOME= C:\jdk-1.8```
 
-2) Download jdk exe from Oracle (e.g. jdk-8u72-windows-x64.exe)
 
-3) Unzip the tools.zip found inside it into the destination folder
-
-4) In cmd.exe, run:
-      cd C:\jdk8
-      for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"
-
-This solution works for JDK 8 too, without Admin rights.
+This solution works for without Admin rights.
 
 
 
