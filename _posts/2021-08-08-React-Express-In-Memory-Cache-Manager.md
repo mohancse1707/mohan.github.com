@@ -93,11 +93,11 @@ Execute below command
 
 Server
 
-![Server](/images/blog/spring/node-express/server-jest.JPG)
+![Server](/images/blog/spring/node-express/server-jest.jpeg)
 
 Client 
 
-![Server](/images/blog/spring/node-express/client-jest.JPG)
+![Server](/images/blog/spring/node-express/client-jest.jpeg)
 
 
 ### Nonexistent Features
@@ -108,7 +108,7 @@ Client
 
 * "time-to-live" (TTL) set as 1 Minute 
 
-![Server](/images/blog/spring/node-express/server-cache.JPG)
+![Server](/images/blog/spring/node-express/server-cache.jpeg)
 
 ### Source Code Download
 
