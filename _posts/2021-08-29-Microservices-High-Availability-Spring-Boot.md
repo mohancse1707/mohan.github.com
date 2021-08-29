@@ -101,7 +101,7 @@ Once, all services started successfully, you can see them in eureka service regi
 
 | API                | API gateway request                    | Forwarded service      | Forwarded URL                      |
 |--------------------|:---------------------------------------|:-----------------------|:-----------------------------------|
-|Product request     |``http://localhost:8080/product/**``    | product-micro-service  | ``http://localhost:8081/**``       |    
+|Product request     |``http://localhost:8080/product/**``    | product-micro-service  | ``http://localhost:8081/** or http://localhost:8082/**``       |    
 |Product review request|``http://localhost:8080/review/**``   | review-micro-service   | ``http://localhost:8083/**``       |    
 
 
