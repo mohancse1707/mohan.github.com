@@ -6,15 +6,15 @@ This project demonstrates high availability of services using microservice archi
 
 ### Features
 
-* High availibility / Resilient services using ribbon load balancer
+* High availability / resilient services using ribbon load balancer
 * API Gateway proxy for microservices
 * JWT Authentication having configurable life or "time-to-live" (TTL)
-* Secured write oprerations for product reviews
+* Secured write operation for product reviews
 * Service to Service communications
 * Reusable services for other platforms
-* Separate data store for each microservices 
+* Separate data store for each microservice 
 * Unit and Integration testing
-* Authentication is enabled only for product review wirte operations.
+* Authentication enabled only for product review write operations.
 
 ### Application architecture
 
@@ -27,14 +27,14 @@ The technologies used in this application are given below.
 * Java 1.8
 * Spring
 * Spring Boot
-* H2 Databse (file storage)
+* H2 Database (file storage)
 * Maven Build Tool [Download][Maven]
 
 ```Make sure Java and Maven is installed and set in the system path before proceeding to build & deployments```
 
 ### Limitations 
 
-* Security is enabled in API Gateway as this is the entry point for all service request, I assume that have a firewall in place, this could restrict inbound traffic to micro services and disallow anyone from accessing the microservices directly.
+* Security enabled in API Gateway as this is the entry point for all service request, I assume that have a firewall in place, this could restrict inbound traffic to micro services and disallow anyone from accessing the microservices directly.
 
 * If any build / compilation error occurs due the maven test execution, skip the test case execution using this command ```mvn spring-boot:run -DskipTests=true```
 
@@ -107,13 +107,13 @@ Once, all services started successfully, you can see them in eureka service regi
 
 ### Load Balancing 
 
-If we have multiple instance for product-service like http://localhost:8081 and http://localhost:8082. If any request with http://localhost:8080/product/** api gateway will forward it to one of the two instance of product-service as load balancing done using Round-robin order since Zuul api-gateway use Ribbon load balancer. Api gateway also frequently keep updated all available instance list of a service from eureka server.
+If we have multiple instance for product-service like http://localhost:8081 and http://localhost:8082. If any request with http://localhost:8080/product/** api gateway will forward it to one of the two instance of product-service as load balancing using Round-robin order since Zuul api-gateway use Ribbon load balancer. Api gateway also frequently keep updated all available instance list of a service from eureka server.
 
 ### Database Access
 
 **Product Service**
 
-We have launched two instance for product services, *Both instance are running as separate application but they are using same database*
+We have launched two instances for product services, *Both instance are running as separate application, but they are using same database*
 
 Access product service datasource in browser by
 
@@ -141,7 +141,7 @@ Password  : `root`
 
 ### Docker Build
 
-* Docker files are created for both product and product review service with simple build scripts.
+* Docker files created for both product and product review service with simple build scripts.
 * Docker composer file added in the root directory of this application.
 
 [Direct Download]: https://github.com/mohancse1707/springboot-microservice-application/archive/main.zip
