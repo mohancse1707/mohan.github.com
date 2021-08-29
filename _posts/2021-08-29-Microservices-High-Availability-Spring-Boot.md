@@ -135,10 +135,6 @@ JDBC URL  : `jdbc:h2:~/review`
 User Name : `root`  
 Password  : `root`  
 
-### Nonexistent Features
-
-* Client test cases covered only for few functions not for all functions
-
 ### Docker Build
 
 * Docker files created for both product and product review service with simple build scripts.
