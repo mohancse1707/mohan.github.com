@@ -14,7 +14,6 @@ This project demonstrates high availability of services using microservice archi
 * Reusable services for other platforms
 * Separate data store for each microservice 
 * Unit and Integration testing
-* Authentication enabled only for product review write operations.
 
 ### Application architecture
 
