@@ -36,7 +36,7 @@ The technologies used in this application are given below.
 
 * Security is enabled in API Gateway as this is the entry point for all service request, I assume that have a firewall in place, this could restrict inbound traffic to micro services and disallow anyone from accessing the microservices directly.
 
-* If any buil / compilation error occurs due the maven test execution, skip the test case execution using this command ```mvn spring-boot:run -DskipTests=true```
+* If any build / compilation error occurs due the maven test execution, skip the test case execution using this command ```mvn spring-boot:run -DskipTests=true```
 
 ### Source Code Download
 
@@ -68,7 +68,7 @@ In Terminal#2 Navigate to ```springboot-microservice-application\api-gateway-ser
 
 Once started hit this URL: [http://localhost:8080](http://localhost:8080) 
 
-### Run the Product Micro Service
+### Run the Product Service
 
 In Terminal#3 Navigate to ```springboot-microservice-application\product-micro-service``` and execute below command 
 
@@ -99,10 +99,10 @@ Once, all services started successfully, you can see them in eureka service regi
 ### API Gateway Request Forwading
 
 
-| API                | API gateway request                    | Forwarded service      | Forwarded URL                                                  |
-|--------------------|:---------------------------------------|:-----------------------|:---------------------------------------------------------------|
-|All product request |``http://localhost:8080/product/**``    | product-micro-service  | ``http://localhost:8081/** or http://localhost:8082/**``       |    
-|All product review request  |``http://localhost:8080/review/**``     | review-micro-service   | ``http://localhost:8083/**``                                   |    
+| API                | API gateway request                    | Forwarded service      | Forwarded URL                      |
+|--------------------|:---------------------------------------|:-----------------------|:-----------------------------------|
+|Product request     |``http://localhost:8080/product/**``    | product-micro-service  | ``http://localhost:8081/**``       |    
+|Product review request|``http://localhost:8080/review/**``   | review-micro-service   | ``http://localhost:8083/**``       |    
 
 
 ### Load Balancing 
