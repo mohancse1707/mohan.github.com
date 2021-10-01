@@ -12,14 +12,6 @@ This is a sample backend Rest API application.This project demonstrates where th
 
 :exclamation: Make sure Java and Maven installed and set in the system path before proceeding to build & deployments.
 
-### Missing Query / Clarifications 
-
-I could see something is not clear / maybe I am wrong in the checkout operation requirement. didn't get time to review my query as I received the assignment Thursday evening.
-
-Promotional code is an optional parameter and on the other side, we need to set discounts (in %) against each book type/classification.
-
-I have not seen any relation between Promotional code and discounts, what's the use of promotional code since we are applying the discount based on book type. 
-
 ### My Assumption
 
 * Apply discount against book type only if there is any promotional code value in checkout API.
