@@ -53,7 +53,7 @@ Hit this Datasource URL in a browser: [http://localhost:8080/h2-console](http://
 To connect data source use below credentials   
 JDBC URL  : `jdbc:h2:mem:testdb`  
 User Name : `sa`  
-Password  : ` `  
+Password  :   
 
 
 ### Discounts Setup
@@ -70,7 +70,7 @@ Password  : ` `
 |MEDIA               |``25`` |  
 |OTHERS               |``30`` |  
 
-### Sample JSON for add book API
+### Sample JSON to add book
 
 ```json
 {
